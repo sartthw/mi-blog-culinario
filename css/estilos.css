@@ -17,6 +17,7 @@
 }
 
 body.dark {
+  --texttt: white;
   --bg: #121212;
   --bg-gradient: linear-gradient(180deg, #121212 0%, #121212 100%);
   --header-bg: rgba(18,18,18,0.95);
@@ -504,6 +505,7 @@ keyframes fadeUp{
   from{opacity:0; transform:translateY(12px)}
   to{opacity:1; transform:none}
 }
+
 
 
 

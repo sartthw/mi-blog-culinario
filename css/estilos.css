@@ -1,5 +1,5 @@
 :root {
-  --bg: #fffaf5;
+  --bg: #2A6041;
   --bg-gradient: linear-gradient(180deg, #A11814 0%, #A11814 100%);
   --header-bg: #2A6041;
   --hero-overlay: rgba(0,0,0,0.3);
@@ -506,6 +506,7 @@ keyframes fadeUp{
   from{opacity:0; transform:translateY(12px)}
   to{opacity:1; transform:none}
 }
+
 
 
 

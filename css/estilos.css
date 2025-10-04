@@ -306,8 +306,8 @@ overflow-x: hidden;
     flex:1;
     padding:.6rem .8rem;
     border-radius:10px;border:1px solid var(--muted);
-    background:var(--card);
-    color: black;
+    background:var(--textttt);
+    color: var(--texttt);
     transition: background-color .3s, color .3s
 }
 .newsletter-form button{
@@ -504,6 +504,7 @@ keyframes fadeUp{
   from{opacity:0; transform:translateY(12px)}
   to{opacity:1; transform:none}
 }
+
 
 
 

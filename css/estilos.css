@@ -8,6 +8,7 @@
   --text: #ffffff;
   --textt: #A11814;
   --texttt: #1f1f1f;
+  --texttttt: #1f1f1f
   --textttt: #7d7d7dff;
   --accent: #A11814;
   --accent-2: #f05e5eff;
@@ -17,7 +18,7 @@
 }
 
 body.dark {
-  --texttt: white;
+  --texttttt: white;
   --bg: #121212;
   --bg-gradient: linear-gradient(180deg, #121212 0%, #121212 100%);
   --header-bg: rgba(18,18,18,0.95);
@@ -308,7 +309,7 @@ overflow-x: hidden;
     padding:.6rem .8rem;
     border-radius:10px;border:1px solid var(--muted);
     background:var(--textttt);
-    color: var(--texttt);
+    color: var(--texttttt);
     transition: background-color .3s, color .3s
 }
 .newsletter-form button{
@@ -505,6 +506,7 @@ keyframes fadeUp{
   from{opacity:0; transform:translateY(12px)}
   to{opacity:1; transform:none}
 }
+
 
 
 
